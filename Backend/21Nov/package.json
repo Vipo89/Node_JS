@@ -1,0 +1,22 @@
+{
+  "name": "21nov",
+  "version": "1.0.0",
+  "description": "Descripción_Proyecto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index21.js", 
+    "start": "node index21.js" 
+  },
+  "keywords": [],
+  "author": "Autor_Proyecto",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
