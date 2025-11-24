@@ -4,6 +4,7 @@ const cors = require("cors");
 const connectToDatabase = require("./src/db/connectDb");
 const userRouter = require("./src/routers/userRouter");
 const moviesRouter = require("./src/routers/moviesRouter")
+const userRouter2 = require("./src/routers/userRouter2")
 const PORT = Number(process.env.PORT || 3000);
 
 const server = express();
@@ -28,6 +29,8 @@ server.use("/api/users", userRouter);
 
 //Router for movies
 server.use("/api/movies", moviesRouter);
+
+server.use("/api/users2",userRouter2)
 
 
 
